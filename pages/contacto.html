@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icon/logo_Logo-blanco.png" type="image/x-icon">
+    <title>Nahuel R. - Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <div id="encabezadoinicial">
+            <div class="Titulogrid">Nahuel R. Photo & Dronie</div>
+            <a href="../index.html" class="menu">Inicio</a>
+            <a href="../pages/sobremi.html" class="menu">Acerca de mi</a>
+            <a href="../pages/galeria.html" class="menu">Galeria</a>
+            <a href="../pages/shop.html" class="menu">Llevate una foto</a>
+            <a href="#" class="menu-select">Contacto</a>
+        </div>
+    </header>
+    <br>
+    <form action="procesar.php" method="post">
+        <fieldset>
+            <legend>Completá el formulario!</legend>
+        <p>
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" placeholder="ingresesa tu nombre">
+        </p>
+        <p>
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" placeholder="inrgesa tu apellido">
+        </p>
+        <p>
+            <label for="pass">Contraseña: </label>
+            <input type="password" name="pass">
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" name="email" required>
+        </p>
+        <p>
+            <label for="telefono">Telefono: </label>
+            <input type="tel" name="telefono" id="">
+        </p>
+
+        <!--checkbox-->
+        <h4>Equipo</h4>
+        <label for="equipo">Drone</label>
+        <input type="checkbox" name="equipo" value="drone">
+
+        <label for="equipo">Camara</label>
+        <input type="checkbox" name="equipo" value="camara">
+
+        <h4>Dejame tu consulta</h4>
+        <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+        
+        <!--Botones-->
+        <p>
+             <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar todo">
+        </p>
+       
+
+
+
+         </fieldset>
+
+
+
+
+    </form>
+    <br><br>
+    <footer id="piedepag">
+        <div class="pie">Todos los derechos reservados 2022</div>
+        <a class="pie" href="https://www.instagram.com/nahuelr.photo/">Insta</a>
+        <a class="pie" href="">TikTok</a>
+    </footer>
+</body>
+</html>
