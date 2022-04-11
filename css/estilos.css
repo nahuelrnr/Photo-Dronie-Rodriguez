@@ -147,6 +147,13 @@
     justify-content: center;
     align-content: center;
     display: grid;
+    transition: all 2s;
+}
+
+.menu:hover{
+    color: black;
+    background-color: white;
+
 }
 
 #piedepag{
