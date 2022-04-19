@@ -7,24 +7,68 @@
     <link rel="shortcut icon" href="../assets/icon/logo_Logo-blanco.png" type="image/x-icon">
     <title>Nahuel R. - Sobre mi</title>
     <link rel="stylesheet" href="../css/estilos.css">
+       <!--bootstrap-->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 </head>
 <body>
-    <header>
-        <div id="encabezadoinicial">
-            <div class="Titulogrid">Nahuel R. Photo & Dronie</div>
-            <a href="../index.html" class="menu">Inicio</a>
-            <a href="#" class="menu-select">Acerca de mi</a>
-            <a href="../pages/galeria.html" class="menu">Galeria</a>
-            <a href="../pages/shop.html" class="menu">Llevate una foto</a>
-            <a href="../pages/contacto.html" class="menu">Contacto</a>
+<!--NavBar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Nahuel R - Photo & Dronie</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class=" navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../pages/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/shop.html">Llevate una foto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
+      </nav>
+<!--Contenido-->
+<div class="container">
+    <div class="row">
+      <div class="card col-12 col-md-6 col-lg-6">
+        <img src="../assets/fotos/me.jpeg" alt="foto01" class="card-img-top" alt="..." >
+        <div class="card-body">
+          <h5 class="card-title">Nahuel Rodriguez</h5>
+          <p class="card-text">Tengo 26 años, voy sacando fotos a lo que me gusta con el telefono y desde hace poco tengo un dron.</p>
+          <a href="../pages/contacto.html" class="btn btn-dark">Contactame</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-md-6 col-lg-6">
+        <img src="../assets/fotos/MINI2.jpg" alt="foto01" class="card-img-top" alt="..." >
+        <div class="card-body">
+          <h5 class="card-title">DJI Mavic mini 2</h5>
+          <p class="card-text">Aca va una descripcion cortita del dron.</p>
+          <a href="../pages/contacto.html" class="btn btn-dark">Saber mas</a>
+        </div>
+      </div>
+
+    </div>
+</div>
+<!--
     <section class="contenedor">
-        <article class="tarjeta"><!--bloque 1-->
+        <article class="tarjeta">
             <a class="tarjeta__miniatura" href="#">
                 <img class="tarjeta__imagen1" src="../assets/fotos/me.jpeg" alt="foto01" >
             </a>
-
             <article class="tarjeta__textos">
                 <h3 class="tarjeta__titulo">
                     <a class="tarjeta__enlace" href="#">Nahuel R.</a>
@@ -37,19 +81,22 @@
                     Todavia tengo que poner un poquito mas de texto
                 </p>
 
-                <a class="boton" href="../pages/galeria.html"><!--bloque 2-->
+                <a class="boton" href="../pages/galeria.html">
                     <span class="boton__texto">Ver mas</span>
                 </a>
             </article>
         </article>
 
     </section>
-
-
-    <footer id="piedepag">
-        <div class="pie">Todos los derechos reservados 2022</div>
-        <a class="pie" href="https://www.instagram.com/nahuelr.photo/">Insta</a>
-        <a class="pie" href="">TikTok</a>
-    </footer>
+-->
+<!--Pie de pagina-->
+<footer>
+    <section class="container-fluid ">
+        <div class="row">
+            <div class="item-pie text-light bg-black">Todos los derechos reservados</div>
+        </div>
+    </section>
+ </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
