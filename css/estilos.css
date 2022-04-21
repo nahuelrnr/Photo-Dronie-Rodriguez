@@ -1,226 +1,236 @@
 .borderedondeados {
-    border: solid 5px rgb(255, 255, 255);
-    border-radius: 20px;
+  border: solid 5px rgb(255, 255, 255);
+  border-radius: 20px;
 }
 
-.titulopagina{
-    font-family: 'century gothic';
-    font-style: italic;
-    font-size: 40px;
-    color: white;
-    background-color: #70AEC6;
-    padding-left: 200px;
+.titulopagina {
+  font-family: "century gothic";
+  font-style: italic;
+  font-size: 40px;
+  color: white;
+  background-color: #70AEC6;
+  padding-left: 200px;
 }
-.textomenu{
-    font-family: 'century gothic';
-    font-style: italic;
-    font-size: 15px;
+
+.textomenu {
+  font-family: "century gothic";
+  font-style: italic;
+  font-size: 15px;
 }
-.textomenu__ubicacion{
-    font-family: 'century gothic';
-    font-style: bold;
-    font-size: 10px;
+
+.textomenu__ubicacion {
+  font-family: "century gothic";
+  font-style: bold;
+  font-size: 10px;
 }
-.textosubtitulo{
-    font-family: 'century gothic';
-    font-size: 20px
+
+.textosubtitulo {
+  font-family: "century gothic";
+  font-size: 20px;
 }
-.piedepagina{
-    font-family: 'century gothic';
-    font-style: italic;
-    font-size: 10px;
+
+.piedepagina {
+  font-family: "century gothic";
+  font-style: italic;
+  font-size: 10px;
 }
+
 /*metodologia BEM*/
-
-.contenedor{
-    max-width: 1000px;
-    width: 90%;
-    margin: 0 auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.tarjeta{
-    background-color: #70AEC6;
-    padding: 20px;
-    border-radius: 15px;
+.tarjeta {
+  background-color: #70AEC6;
+  padding: 20px;
+  border-radius: 15px;
 }
 
-.tarjeta__miniatura{
-    width: 600px;
-    height: 250px;
-    margin: 20px;
+.tarjeta__miniatura {
+  width: 600px;
+  height: 250px;
+  margin: 20px;
 }
 
-.tarjeta__imagen1{
-    width: 50%;
-    border-radius: 10px;
+.tarjeta__imagen1 {
+  width: 50%;
+  border-radius: 10px;
 }
 
-.tarjeta__titulo{
-    font-size: 20px;
-    margin: 20px;
-}
-.tarjeta__enlace{
-    color: white;
-}
-.tarjeta__parrafo{
-    line-height: 25px;
-    margin-bottom: 20px;
-    margin: 20px;
-    color: white;
+.tarjeta__titulo {
+  font-size: 20px;
+  margin: 20px;
 }
 
-
-.boton{
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: rgb(5, 5, 142);
-    border-radius: 10px;
-    text-decoration: none;
-}
-.boton__texto{
-    color: white;
-    font-size: 15px;
+.tarjeta__enlace {
+  color: white;
 }
 
-.caja1{
-    background-color: aquamarine;
-    height: 300px;
-    width: 300px;
-    margin-left: 30px;
+.tarjeta__parrafo {
+  line-height: 25px;
+  margin-bottom: 20px;
+  margin: 20px;
+  color: white;
 }
 
-.grid-container{
-    margin: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 250px);
-    justify-items: center;
+.boton {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: rgb(5, 5, 142);
+  border-radius: 10px;
+  text-decoration: none;
 }
 
-.grid-container div{
-    border: solid 0px black;
+.boton__texto {
+  color: white;
+  font-size: 15px;
 }
 
-#grilla{
-    display: grid;
-    grid-template-columns: 20% auto 20%;
-    grid-template-rows: 100px 100px;
-    grid-template-areas:    "nav header header";
+.caja1 {
+  background-color: aquamarine;
+  height: 300px;
+  width: 300px;
+  margin-left: 30px;
 }
 
-#encabezadoinicial{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: 80px 25px;
-    grid-template-areas: "header header header header header"
-                        "menu1 menu2 menu3 menu4 menu5"
-
-    
-    ;
-}
-.Titulogrid{
-    background-color: #70AEC6;
-    grid-area: header ;
-    font-family:  'century gothic';
-    font-size: 40px;
-    font-style: italic;
-    color: white;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    
+.grid-container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  justify-items: center;
 }
 
-.menu-select{
-    background-color: rgb(5, 5, 142);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    color: white;
-    justify-content: center;
-    align-content: center;
-    display: grid;
-}
-.menu{
-    background-color: rgb(0, 0, 86);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    justify-content: center;
-    align-content: center;
-    display: grid;
-    transition: all 2s;
+.grid-container div {
+  border: solid 0px black;
 }
 
-.menu:hover{
-    color: black;
-    background-color: white;
-
+#grilla {
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: 100px 100px;
+  grid-template-areas: "nav header header";
 }
 
-#piedepag{
-    display: grid;
-    grid-template-columns: 85% auto auto ;
-    grid-template-rows: 25px;
-}
-.pie{
-    background-color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    justify-content: center;
-    align-content: center;
-    display: grid;
+#encabezadoinicial {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 80px 25px;
+  grid-template-areas: "header header header header header" "menu1 menu2 menu3 menu4 menu5";
 }
 
-.principal{
-    height: 60hv;
-    background-image: url(../assets/fotos/20220401_194924-hor.jpg);
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(10,1fr);
-    grid-template-rows: repeat(6,1fr);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.Titulogrid {
+  background-color: #70AEC6;
+  grid-area: header;
+  font-family: "century gothic";
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.Titulogrid:hover {
+  background-color: blue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 1s;
+}
 
+.menu-select {
+  background-color: rgb(5, 5, 142);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  display: grid;
 }
-.principal .contenido{
-    grid-column: 7/10;
-    grid-row: 2/4;
-    color: white;
+
+.menu {
+  background-color: rgb(0, 0, 86);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  transition: all 2s;
 }
-.principal .tituloindex{
-    font-size: 25px;
+.menu:hover {
+  color: black;
+  background-color: red;
 }
-.principal .parrafindex{
-    font-size: 15px;
-    font-weight: 600;
+
+#piedepag {
+  display: grid;
+  grid-template-columns: 85% auto auto;
+  grid-template-rows: 25px;
+}
+
+.pie {
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+}
+
+.principal {
+  height: 60hv;
+  background-image: url(../assets/fotos/20220401_194924-hor.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.principal .contenido {
+  grid-column: 7/10;
+  grid-row: 2/4;
+  color: white;
+}
+.principal .tituloindex {
+  font-size: 25px;
+}
+.principal .parrafindex {
+  font-size: 15px;
+  font-weight: 600;
 }
 
 /*mediaqueries*/
-
 @media screen and (max-width: 600px) {
-    .menu{
-        position: relative;
-        font-size: 12px;
-    }
-    .Titulogrid{
-        font-size: 30px;
-    }
-    .principal .tituloindex{
-        font-size: 15px;
-    }
-    .principal .parrafindex{
-        font-size: 10px;
-    }
+  .menu {
+    position: relative;
+    font-size: 12px;
+  }
 
+  .Titulogrid {
+    font-size: 30px;
+  }
+
+  .principal .tituloindex {
+    font-size: 15px;
+  }
+
+  .principal .parrafindex {
+    font-size: 10px;
+  }
 }
 /*clase de bootstrap*/
+.item {
+  height: 250px;
+}
 
-.item{
-    height: 250px;
+.carousel-item {
+  max-height: 88.2vh;
 }
-.carousel-item{
-    max-height: 88.2vh;
+
+.item-pie {
+  height: 30px;
 }
-.item-pie{
-    height: 30px;
-}
+
+/*# sourceMappingURL=estilos.css.map */
